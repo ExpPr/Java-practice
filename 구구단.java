@@ -22,5 +22,6 @@ public class practicefile {
 			}
 			System.out.println("");
 		}
+						  //     \t : 일정한 열 맞춤상태로 탭 
 }
 }
