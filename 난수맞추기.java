@@ -29,7 +29,7 @@ public class practicefile {
 		System.out.printf("%d회만에 풀었어요!",count+1);
 
 		
-		
+		// r.nextInt(200)-100 하면 -100 부터 99까지 난수.
 	}
 }
 
