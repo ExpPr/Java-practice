@@ -30,6 +30,7 @@ public class practicefile {
 
 		
 		// r.nextInt(200)-100 하면 -100 부터 99까지 난수.
+		// do while 구문 대체품 : for(;;) { if () ~~ break; }
 	}
 }
 
