@@ -24,7 +24,7 @@ public class practicefile {
 		char a=65;
 
 
-		System.out.println((score/10==10) ?(char) (a):(char)(a+(10-(score/10+1))));
+		System.out.println((score/10==10) ?(char) (a):((score/10>=7) ? (char)(a+(10-(score/10+1))) : "D"));
 
 	}
 }
