@@ -20,7 +20,7 @@ public class practicefile {
 			
 				
 		}
-		//두번째방법
+		//2
 		char a=65;
 
 
