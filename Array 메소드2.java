@@ -11,6 +11,7 @@ public class practicefile {
 		System.out.println(Arrays.toString(mat));//배열에 있는 숫자 데이터를 문자열로 바꾸어줌. 이때 대괄호 콤마는 자동임.
 		
 		Arrays.sort(mat);
+		Arrays.sort(mat,2,mat.length) //인덱스가 2부터 mat.length-1까지"만" 오름차순 정렬"
 		System.out.println(Arrays.toString(mat)); //sort 배열정리 기본값은 오름차순
 		
 		int p=Arrays.binarySearch(mat, 90);
