@@ -5,7 +5,7 @@ public class practicefile {
 		
 		int mat[]= {90,80,470,5,60};
 		int rep[]= Arrays.copyOfRange(mat, 0, 3);//복사 메소드. 원본배열 mat의 인덱스가 0부터 2까지 총 3개를 복사함
-		//시스템적으로 사용 원할시 System.arraycopy(mat,0,rep,0,mat.length) 이때 복사본 rep크기는 5로 미리 설정되어야함.
+		//시스템적으로 사용 원할시 System.arraycopy(mat,0,rep,0,mat.length)
 		System.out.println(Arrays.toString(rep));
 		
 		System.out.println(Arrays.toString(mat));//배열에 있는 숫자 데이터를 문자열로 바꾸어줌. 이때 대괄호 콤마는 자동임.
