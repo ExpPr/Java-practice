@@ -1,6 +1,9 @@
 import java.util.HashMap;//Hashmap 사용시 필수조건
 import java.util.Set;
 
+//Hashmap 은 Map에 종속됨. 특징 : 키값만 없거나 value값만 없는 것은 불가능. Key 중복 불가능 . Value는 중복허용 .
+//데이터 순서 취급X
+
 public class Hashmap_study {
     public static void main(String[] args) {
         HashMap<Integer,String> map=new HashMap<>();//HashMap 값 추가, <Key, Value> 형식임. 이때 파라미터는 전부 참조형이어야함.
