@@ -43,7 +43,8 @@ public class Deque_study {
 
 
 
-
+    Integer[] ae= (Integer[]) que.toArray(new Integer[que.size()]);//아니면 이렇게 참조형 배열을 원할 경우 이방식을 이용.
+    //이 방식은 List, Set에서 다 통하는 방식임.
 
     
 
