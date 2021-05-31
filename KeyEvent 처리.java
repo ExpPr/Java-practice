@@ -22,7 +22,7 @@ public class guitest extends JFrame {
 		panel.add(bt2);
 		panel.add(bt3);
 		
-		panel.requestFocus();
+		panel.requestFocus();//키 리스너는 반드시 이 focus가 선행되어야 함. 25,26번줄 2개다 구현해야함
 		panel.setFocusable(true);
 		
 		panel.addKeyListener(new KeyListener() {//키 리스너는 3가지 추상 메소드 일단 구현은 해야한다. 3개 다.
